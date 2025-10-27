@@ -18,7 +18,7 @@ const imageSrcs = [img1, img2, img3];
 
 const Details = () => {
   // Logic đơn giản để tạo mảng ngày
-  const days = Array.from({ length: 30 }, (_, i) => i + 1);
+  const days = Array.from({ length: 31 }, (_, i) => i + 1);
 
   return (
     <div className="details-page-container">
@@ -75,9 +75,9 @@ const Details = () => {
             {/* Placeholder cho ngày mờ (ví dụ: bắt đầu từ thứ 7) */}
             <div className="day-cell placeholder"></div>
             <div className="day-cell placeholder"></div>
-            <div className="day-cell placeholder"></div>
-            <div className="day-cell placeholder"></div>
-            <div className="day-cell placeholder"></div>
+            {/* <div className="day-cell placeholder"></div> */}
+            {/* <div className="day-cell placeholder"></div> */}
+            {/* <div className="day-cell placeholder"></div> */}
 
             {/* Số năm lớn, mờ ở trung tâm */}
             <span className="year-overlay">{eventData.year}</span>
@@ -85,9 +85,9 @@ const Details = () => {
             {days.map((day) => (
               <div
                 key={day}
-                className={`day-cell ${day === 1 ? "highlight" : ""}`}
+                className={`day-cell ${day === 31 ? "highlight" : ""}`}
               >
-                {day === 1 ? (
+                {day === 31 ? (
                   <div className="highlight-day">
                     <img src={HeartIcon} alt="" className="heart" />
                     <span>{day}</span>

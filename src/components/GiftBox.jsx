@@ -1,5 +1,6 @@
 import React from "react";
 import QR_CO_DAU from "../assets/QR_co_dau.jpg";
+import QR_CHU_RE from "../assets/QR_chu_re.jpg";
 
 const GiftBox = () => {
   return (
@@ -14,7 +15,7 @@ const GiftBox = () => {
         </div>
 
         {/* QR code */}
-        <img src={QR_CO_DAU} alt="QR Cô dâu" className="w-40 h-40 mb-4" />
+        <img src={QR_CHU_RE} alt="QR Cô dâu" className="w-40 h-40 mb-4" />
 
         {/* Thông tin */}
         <div className="text-gray-800">
@@ -30,7 +31,7 @@ const GiftBox = () => {
           >
             Vương Quốc Tuấn
           </p>
-          <p className="text-sm text-gray-600">Techcombank - 19037057235014</p>
+          <p className="text-sm text-gray-600">TP Bank - 0981324581</p>
         </div>
 
         <br />
