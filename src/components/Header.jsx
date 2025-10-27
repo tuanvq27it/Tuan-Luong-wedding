@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Music2, Pause } from "lucide-react"; // icon từ lucide-react
-import couple from "../assets/7.jpg"
-import songhi from "../assets/songhi.png"
+import couple from "../assets/MCK00766.jpg";
+import songhi from "../assets/songhi.png";
 
 const Header = () => {
   const audioRef = useRef(null);
@@ -38,14 +38,16 @@ const Header = () => {
 
       {/* Chữ Save the Date */}
       <div className="pt-6">
-        <p className="font-[Satisfy] text-xl italic">Save The Date</p>
+        <p className="text-xl italic" style={{ fontFamily: "Great Vibes" }}>
+          Save The Date
+        </p>
         <p className="text-[#fff] font-light tracking-widest border border-dashed border-[#fff] inline-block px-3 py-1 mt-1 text-sm">
           01 . 11 . 2025
         </p>
       </div>
 
       {/* Tên cô dâu chú rể */}
-      <h1 className="font-[Satisfy] text-3xl mt-3">
+      <h1 className="text-3xl mt-3" style={{ fontFamily: "Great Vibes" }}>
         Quốc Tuấn <span className="mx-2">-</span> Hiền Lương
       </h1>
 
