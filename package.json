@@ -2,7 +2,7 @@
   "name": "wedding-invite",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://TuanVQ.github.io/Tuan-Luong-wedding",
+  "homepage": "https://tuanvq27it.github.io/Tuan-Luong-wedding/",
   "scripts": {
     "start": "vite",
     "dev": "vite",
